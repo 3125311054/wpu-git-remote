@@ -69,8 +69,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div id="container">
 	<h1>Welcome to CodeIgniter! GIT</h1>
+	
 
 	<div id="body">
+
+		<p>Nama : Mohammad Nurul fuad</p>
+		<p>TTL : Pati, 17 Februari  1994</p>
+		<p>Alamat : Kajen RT02 RW01 Kec. Margoyoso Kab. Pati</p>
+		<p>Telepon : 081329038007</p>
+		<p>Email : mohammedfuad094@gmail.com</p>
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 		<p>If you would like to edit this page you'll find it located at:</p>
