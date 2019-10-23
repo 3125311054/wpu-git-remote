@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
-	<link rel="stylesheet" href="../assets/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css');?>">
 	
 	<style type="text/css">
 
@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 
 	<div id="body">
-
+		<p>GIT Confict</p>
 		<p>Nama : Mohammad Nurul fuad</p>
 		<p>TTL : Pati, 17 Februari  1994</p>
 		<p>Alamat : Kajen RT02 RW01 Kec. Margoyoso Kab. Pati</p>
@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
-<script type="text/javascript" src="../assets/popup.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/popup.js');?>"></script>
 
 </body>
 </html>
